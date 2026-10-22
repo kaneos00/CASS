@@ -10,6 +10,7 @@ services:
       - "80"
     environment:
       CASS_LOOPBACK: "http://cass/api/"
+      CASS_LOOPBACK_PROXY: "https://cass.vps-yma.ovh/api/"
       ELASTICSEARCH_ENDPOINT: "http://elasticsearch-cass:9200"
       PORT: "80"
     ulimits:
